@@ -19,7 +19,7 @@ To collect information about Steam applications and sort them by category, you c
 
 ```python
 import asyncio
-from steam-arbitrage.market_arbitrage.apps_collector import CollectAppsHandler
+from market_arbitrage.apps_collector import CollectAppsHandler
 
 async def get_data():
     # you can change proxy in /database/data/requests/proxy.json
@@ -56,7 +56,7 @@ To check booster packs and trading cards you can use `BoosterChecker`.
 
 ```python
 import asyncio
-from steam-arbitrage.market_arbitrage.booster_checker import BoosterChecker
+from market_arbitrage.booster_checker import BoosterChecker
 
 async def find_arbitrage():
     # use_predefined_apps_db argument will check apps from /database/data/apps/predefined_apps.json
@@ -96,7 +96,7 @@ To get the collected information from the db about Steam applications and booste
 
 ```python
 import asyncio
-from steam-arbitrage.market_arbitrage.data_handler import DataHandler
+from market_arbitrage.data_handler import DataHandler
 
 async def get_collected_data():
     # owned apps on account
@@ -124,7 +124,7 @@ For accounts management you can use the `AccountManager`.
 
 ```python
 import asyncio
-from steam-arbitrage.account_manager.account_manager import AccountManager
+from account_manager.account_manager import AccountManager
 
 async def manage_account():
     manager = await AccountManager.create()
@@ -151,7 +151,7 @@ To get information about Steam applications without writing to the local databas
 
 ```python
 import asyncio
-from steam-arbitrage.apps.apps_handler import AppsHandler
+from apps.apps_handler import AppsHandler
 
 async def get_steam_apps():
     apps = await AppsHandler.create()
@@ -174,7 +174,7 @@ To interact with Steam market you can use `MarketHandler`.
 
 ```python
 import asyncio
-from steam-arbitrage.market.market_handler import MarketHandler
+from market.market_handler import MarketHandler
 
 async def market_handler():
     market = await MarketHandler.create()
