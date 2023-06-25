@@ -1,0 +1,10 @@
+{
+    "example_login": {
+        "steam_id": "steam_id",
+        "password": "password",
+        "api_key": "api_key",
+        "shared_secret": null,
+        "apps_path": "owned_apps_list_path",
+        "currency": "currency"
+    }
+}

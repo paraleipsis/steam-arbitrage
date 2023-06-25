@@ -1,0 +1,6 @@
+{
+  "proxies":
+    [
+      {"host": "", "login": "", "password": ""}
+    ]
+}
