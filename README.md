@@ -2,7 +2,7 @@
 Async library for finding Steam booster packs arbitrage, sorting Steam apps into categories, managing accounts and interacting with the Steam Market.
 
 ## Installation
-- Install Python 3.11+.
+- Install Python 3.11+
 - Install requirements:
 
 ```bash
