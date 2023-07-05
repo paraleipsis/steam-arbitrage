@@ -3,13 +3,12 @@ Async library for finding Steam booster packs arbitrage, sorting Steam apps into
 
 ## Installation
 - Install Python 3.11+
+- - Clone this repository;
 - Install requirements:
 
 ```bash
 pip install -r requirements.txt
 ```
-
-- Clone this repository
   
 ## Usage
 To collect information about Steam applications and sort them by category, you can use `CollectAppsHandler`:
