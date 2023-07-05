@@ -3,7 +3,7 @@ Async library for finding Steam booster packs arbitrage, sorting Steam apps into
 
 ## Installation
 - Install Python 3.11+
-- Clone this repository;
+- Clone this repository
 - Install requirements:
 
 ```bash
